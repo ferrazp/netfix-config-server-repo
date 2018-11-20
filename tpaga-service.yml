@@ -1,0 +1,15 @@
+server:
+   port: 8083
+logging:
+  config: "file:config/logback.groovy"
+tpaga: 
+  url: "https://stag.wallet.tpaga.co:443"
+  captureServiceName: "/api/v1/otp/capture"
+  cancelServiceName: "/api/v1/otp/cancel"
+  revertServiceName: "/api/v1/otp/revert"
+  authorizeServiceName: "/api/v1/otp/authorize"
+  settleServiceName: "/api/v1/otp/settle"
+  connectionTimeout: 1000
+  readTimeout: 3000
+  authToken: "mak-fiemfyaquimzsbjtektapdjyvmxybgbjrhtfzdnemmuynriigf"
+  
