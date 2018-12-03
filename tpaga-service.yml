@@ -12,4 +12,6 @@ tpaga:
   connectionTimeout: 1000
   readTimeout: 3000
   authToken: "mak-fiemfyaquimzsbjtektapdjyvmxybgbjrhtfzdnemmuynriigf"
-  
+eureka:      
+  instance:
+    lease-expiration-duration-in-seconds: 33 # Default 90
